@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Kenyang" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="AppLogo">
+        <item name="android:textSize">54sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="Jargon">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_height">67.5dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:background">@drawable/rounded_corner_rectangle</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_height">67.5dp</item>
+        <item name="android:layout_marginTop">98.5dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/orange</item>
+    </style>
+
+    <style name="Poster">
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+    </style>
+
+    <style name="RoundCategory">
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="contentDescription">@string/kategori</item>
+    </style>
+
+    <style name="Theme.Kenyang" parent="Base.Theme.Kenyang" />
+</resources>
