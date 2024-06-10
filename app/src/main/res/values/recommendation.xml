@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for Menu -->
+    <string-array name="menu_array">
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Sushi</item>
+        <item>Taco</item>
+        <item>Pasta</item>
+    </string-array>
+
+    <!-- Array for Restaurant -->
+    <string-array name="restaurant_array">
+        <item>Pizza Hut</item>
+        <item>McDonald\'s</item>
+        <item>Sushi Tei</item>
+        <item>Taco Bell</item>
+        <item>Olive Garden</item>
+    </string-array>
+
+    <!-- Array for Stock -->
+    <integer-array name="stock_array">
+        <item>10</item>
+        <item>5</item>
+        <item>20</item>
+        <item>15</item>
+        <item>8</item>
+    </integer-array>
+
+    <!-- Array for Rating -->
+    <string-array name="rating_array">
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>4.8</item>
+        <item>4.6</item>
+        <item>4.4</item>
+    </string-array>
+
+    <!-- Array for Distance -->
+    <string-array name="distance_array">
+        <item>1.2</item>
+        <item>0.8</item>
+        <item>2.5</item>
+        <item>1.8</item>
+        <item>1.0</item>
+    </string-array>
+
+    <!-- Array for Price -->
+    <integer-array name="price_array">
+        <item>15000</item>
+        <item>12000</item>
+        <item>30000</item>
+        <item>10000</item>
+        <item>20000</item>
+    </integer-array>
+
+    <integer-array name="menu_image">
+        <item>@drawable/a1</item>
+        <item>@drawable/a2</item>
+        <item>@drawable/a3</item>
+        <item>@drawable/a4</item>
+        <item>@drawable/a5</item>
+    </integer-array>
+
+</resources>
+

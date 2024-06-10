@@ -1,28 +1,36 @@
 package com.example.kenyang.adapter
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kenyang.adapter.dataModel.Category
+import com.example.kenyang.data.Category
 import com.example.kenyang.databinding.ItemRoundCategoryBinding
 
 class CategoriesAdapter : ListAdapter<Category, CategoriesAdapter.CategoryViewHolder>(DIFF_CALLBACK) {
 
     class CategoryViewHolder(private val itemBinding: ItemRoundCategoryBinding) : RecyclerView.ViewHolder(itemBinding.root) {
+        fun bind(category: Category) {
+            itemBinding.tvCategoryName.text = category.name
+            itemBinding.ivImage.setImageResource(category.image)
+        }
 
+        // set on click listener to category page with switch
     }
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): CategoriesAdapter.CategoryViewHolder {
-        TODO("Not yet implemented")
+        val binding = ItemRoundCategoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return CategoryViewHolder(binding)
     }
 
 
     override fun onBindViewHolder(holder: CategoriesAdapter.CategoryViewHolder, position: Int) {
-
+        val category = getItem(position)
+        holder.bind(category)
     }
 
     companion object {

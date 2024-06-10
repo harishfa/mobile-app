@@ -35,17 +35,69 @@
     </style>
 
     <style name="Poster">
-        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_height">160dp</item>
         <item name="android:layout_marginStart">24dp</item>
         <item name="android:layout_marginEnd">24dp</item>
         <item name="android:layout_marginTop">18dp</item>
     </style>
 
     <style name="RoundCategory">
-        <item name="android:layout_height">90dp</item>
-        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">65dp</item>
         <item name="contentDescription">@string/kategori</item>
     </style>
+
+    <style name="CategoryLayout">
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+
+    <style name="RecommendationImage">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">135dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    
+    <style name="RecMenu">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <style name="Stock">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_marginTop">0.25dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <style name="Restaurant">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/black_2</item>
+    </style>
+
+    <style name="RatingColumn">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black_3</item>
+    </style>
+
+    <style name="Price">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginEnd">6dp</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 
     <style name="Theme.Kenyang" parent="Base.Theme.Kenyang" />
 </resources>
