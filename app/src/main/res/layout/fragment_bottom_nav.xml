@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    tools:context=".fragments.BottomNavFragment">
+
+    <ImageButton
+        android:id="@+id/button_home"
+        style="@style/NavButton"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:src="@drawable/home_white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_camera" />
+
+    <TextView
+        style="@style/NavText"
+        app:layout_constraintStart_toStartOf="@id/button_home"
+        app:layout_constraintEnd_toEndOf="@id/button_home"
+        app:layout_constraintTop_toBottomOf="@id/button_home"
+        android:text="@string/home" />
+
+    <ImageButton
+        android:id="@+id/button_camera"
+        style="@style/NavButton"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:src="@drawable/camera"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_home"
+        app:layout_constraintEnd_toStartOf="@id/button_order" />
+
+    <TextView
+        style="@style/NavText"
+        app:layout_constraintStart_toStartOf="@id/button_camera"
+        app:layout_constraintEnd_toEndOf="@id/button_camera"
+        app:layout_constraintTop_toBottomOf="@id/button_camera"
+        android:text="@string/check_expire" />
+
+    <ImageButton
+        android:id="@+id/button_order"
+        style="@style/NavButton"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:src="@drawable/order"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_camera"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        style="@style/NavText"
+        app:layout_constraintStart_toStartOf="@id/button_order"
+        app:layout_constraintEnd_toEndOf="@id/button_order"
+        app:layout_constraintTop_toBottomOf="@id/button_order"
+        android:text="@string/home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

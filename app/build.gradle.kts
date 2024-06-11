@@ -50,6 +50,7 @@ dependencies {
     implementation (libs.glide)
     implementation (libs.circleimageview)
     testImplementation(libs.junit)
+    implementation(libs.androidx.fragment.ktx)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }

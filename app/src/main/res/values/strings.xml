@@ -11,7 +11,9 @@
     <string name="menu_rekomendasi">Menu rekomendasi</string>
     <string name="barrier">|</string>
     <string name="recommendation">Rekomendasi</string>
-    <string name="scan_appbar_title">Cek Kadaluarsa</string>
+    <string name="check_expire">Cek Kadaluarsa</string>
     <string name="back">Kembali</string>
     <string name="check">Periksa</string>
+    <string name="home">Home</string>
+    <string name="order">Pesanan</string>
 </resources>

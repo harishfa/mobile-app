@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/scan_appbar_title"
+                android:text="@string/check_expire"
                 android:textSize="20sp" />
         </com.google.android.material.appbar.MaterialToolbar>
 
@@ -51,9 +51,11 @@
     <Button
         style="@style/Button"
         android:layout_width="211dp"
-        android:layout_height="63.5dp"
+        android:layout_height="48.5dp"
         android:text="@string/check"
-        android:backgroundTint="@color/blue"
+        android:textSize="18sp"
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
