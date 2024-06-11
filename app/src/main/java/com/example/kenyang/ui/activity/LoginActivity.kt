@@ -1,4 +1,4 @@
-package com.example.kenyang.ui
+package com.example.kenyang.ui.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

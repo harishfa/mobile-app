@@ -1,4 +1,4 @@
-package com.example.kenyang.fragments
+package com.example.kenyang.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

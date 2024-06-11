@@ -1,4 +1,4 @@
-package com.example.kenyang.ui
+package com.example.kenyang.ui.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -8,7 +8,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kenyang.R
 import com.example.kenyang.adapter.RecommendationAdapter
-import com.example.kenyang.data.Category
 import com.example.kenyang.data.Recommendation
 import com.example.kenyang.databinding.ActivityMainBinding
 

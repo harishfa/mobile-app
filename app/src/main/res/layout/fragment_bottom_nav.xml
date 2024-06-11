@@ -7,7 +7,7 @@
     android:paddingTop="12dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/blue"
-    tools:context=".fragments.BottomNavFragment">
+    tools:context=".ui.fragments.BottomNavFragment">
 
     <ImageButton
         android:id="@+id/button_home"
@@ -58,6 +58,6 @@
         app:layout_constraintStart_toStartOf="@id/button_order"
         app:layout_constraintEnd_toEndOf="@id/button_order"
         app:layout_constraintTop_toBottomOf="@id/button_order"
-        android:text="@string/home" />
+        android:text="@string/order" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
