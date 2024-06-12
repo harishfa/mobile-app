@@ -5,11 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kenyang.adapter.CategoriesAdapter.Companion.DIFF_CALLBACK
-import com.example.kenyang.data.Category
-import com.example.kenyang.data.Recommendation
+import com.example.kenyang.data.dataclass.Recommendation
 import com.example.kenyang.databinding.ItemMenuRecommendationBinding
-import com.example.kenyang.databinding.ItemRoundCategoryBinding
 
 class RecommendationAdapter : ListAdapter<Recommendation, RecommendationAdapter.RecommendationViewHolder>(DIFF_CALLBACK) {
     class RecommendationViewHolder (private val itemBinding: ItemMenuRecommendationBinding) : RecyclerView.ViewHolder(itemBinding.root) {

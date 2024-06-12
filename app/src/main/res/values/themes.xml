@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Kenyang" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/stone_50</item>
     </style>
 
     <style name="AppLogo">
@@ -80,7 +80,7 @@
 
     <style name="RatingColumn">
         <item name="android:textSize">10sp</item>
-        <item name="android:textColor">@color/black_3</item>
+        <item name="android:textColor">@color/black_4</item>
     </style>
 
     <style name="Price">
@@ -111,10 +111,39 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">1dp</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/zinc_50</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 
+    <style name="ImageOrder">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">16.7dp</item>
+        <item name="android:layout_marginBottom">16.7dp</item>
+    </style>
+    
+    <style name="TvOrderId">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/black_4</item>
+    </style>
 
+    <style name="TvOrderMenu">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TvOrderRestaurant">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/neutral_500</item>
+    </style>
+
+    <style name="TvOrderStatus">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/black_2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">11.5dp</item>
+        <item name="android:background">@drawable/accent_rounded_grey</item>
+    </style>
+    
     <style name="Theme.Kenyang" parent="Base.Theme.Kenyang" />
 </resources>

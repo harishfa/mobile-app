@@ -1,4 +1,4 @@
-package com.example.kenyang.data
+package com.example.kenyang.data.dataclass
 
 data class Recommendation(
     val imageId: Int,

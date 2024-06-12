@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kenyang.R
 import com.example.kenyang.adapter.CategoriesAdapter
-import com.example.kenyang.data.Category
+import com.example.kenyang.data.dataclass.Category
 import com.example.kenyang.databinding.FragmentCategoriesBinding
 
 class CategoriesFragment : Fragment() {
