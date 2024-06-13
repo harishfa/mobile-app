@@ -248,7 +248,7 @@
                         android:id="@+id/tv_nameStore"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tisto wahyudi"
+                        android:text="Sushi Tei"
                         android:textColor="@color/dark"
                         android:textSize="@dimen/_12ssp"
                         android:textStyle="bold" />
