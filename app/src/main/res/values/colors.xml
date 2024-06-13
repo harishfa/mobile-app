@@ -11,4 +11,12 @@
     <color name="blue">#FF5508AA</color>
     <color name="orange">#FFFAA37B</color>
     <color name="neutral_500">#FF71717A</color>
+    <color name="gray2">#5C5C5C</color>
+    <color name="gray5">#F5F5F5</color>
+    <color name="dark">#1C2029</color>
+    <color name="pinkSoftSecondary">#FFDFEA</color>
+    <color name="pinkSoft">#FF387C</color>
+    <color name="colorPrimary">#09af00</color>
+    <color name="gray3">#8F8F8F</color>
+    <color name="gray4">#C2C2C2</color>
 </resources>

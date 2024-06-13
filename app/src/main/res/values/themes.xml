@@ -144,6 +144,36 @@
         <item name="android:layout_marginTop">11.5dp</item>
         <item name="android:background">@drawable/accent_rounded_grey</item>
     </style>
-    
+
+    <style name="TypographyStyles.TextParent" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">font/worksans_regular</item>
+        <item name="android:fontFamily">font/worksans_regular</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TypographyStyles.Heading1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="TypographyStyles.Text1" parent="TypographyStyles.TextParent">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TypographyStyles.Text2.Bold" parent="TypographyStyles.TextParent">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TypographyStyles.Text3" parent="TypographyStyles.TextParent">
+        <item name="android:textSize">11sp</item>
+    </style>
+
     <style name="Theme.Kenyang" parent="Base.Theme.Kenyang" />
 </resources>
