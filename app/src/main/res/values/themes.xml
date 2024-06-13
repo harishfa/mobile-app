@@ -175,5 +175,9 @@
         <item name="android:textSize">11sp</item>
     </style>
 
+    <style name="TypographyStyles.Text4" parent="TypographyStyles.TextParent">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
     <style name="Theme.Kenyang" parent="Base.Theme.Kenyang" />
 </resources>
