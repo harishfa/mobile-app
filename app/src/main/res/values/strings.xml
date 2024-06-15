@@ -16,15 +16,5 @@
     <string name="check">Periksa</string>
     <string name="home">Home</string>
     <string name="order">Pesanan</string>
-    <string name="order_history">Riwayat Pesanan</string>
-    <string name="cari_produk_disini">Cari makanan disini</string>
-    <string name="rp10_000">Rp10.000</string>
-    <string name="nama">Nama</string>
-    <string name="detail_produk">Detail Makanan</string>
-    <string name="_1">1</string>
-    <string name="stok">Stok</string>
-    <string name="deskripsi">Deskripsi</string>
-    <string name="beli_sekarang">Beli Sekarang</string>
-    <string name="keranjang">Keranjang</string>
-
+    <string name="order_history">Riwayat wlwlwlwlPesanan</string>
 </resources>
